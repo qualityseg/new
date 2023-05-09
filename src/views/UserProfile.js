@@ -21,7 +21,7 @@ function User() {
           <Col md="8">
             <Card>
               <Card.Header>
-                <Card.Title as="h4">Edit Profile</Card.Title>
+                <Card.Title as="h4">Editar Perfil</Card.Title>
               </Card.Header>
               <Card.Body>
                 <Form>
@@ -39,7 +39,7 @@ function User() {
                     </Col>
                     <Col className="px-1" md="3">
                       <Form.Group>
-                        <label>Username</label>
+                        <label>Usuario</label>
                         <Form.Control
                           defaultValue="michael23"
                           placeholder="Username"
@@ -50,7 +50,7 @@ function User() {
                     <Col className="pl-1" md="4">
                       <Form.Group>
                         <label htmlFor="exampleInputEmail1">
-                          Email address
+                          Email
                         </label>
                         <Form.Control
                           placeholder="Email"
@@ -62,7 +62,7 @@ function User() {
                   <Row>
                     <Col className="pr-1" md="6">
                       <Form.Group>
-                        <label>First Name</label>
+                        <label>Nome</label>
                         <Form.Control
                           defaultValue="Mike"
                           placeholder="Company"
@@ -72,7 +72,7 @@ function User() {
                     </Col>
                     <Col className="pl-1" md="6">
                       <Form.Group>
-                        <label>Last Name</label>
+                        <label>Sobrenome</label>
                         <Form.Control
                           defaultValue="Andrew"
                           placeholder="Last Name"
@@ -84,7 +84,7 @@ function User() {
                   <Row>
                     <Col md="12">
                       <Form.Group>
-                        <label>Address</label>
+                        <label>Endereço</label>
                         <Form.Control
                           defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
                           placeholder="Home Address"
@@ -96,7 +96,7 @@ function User() {
                   <Row>
                     <Col className="pr-1" md="4">
                       <Form.Group>
-                        <label>City</label>
+                        <label>Cidade</label>
                         <Form.Control
                           defaultValue="Mike"
                           placeholder="City"
@@ -116,7 +116,7 @@ function User() {
                     </Col>
                     <Col className="pl-1" md="4">
                       <Form.Group>
-                        <label>Postal Code</label>
+                        <label>CEP</label>
                         <Form.Control
                           placeholder="ZIP Code"
                           type="number"
@@ -127,7 +127,7 @@ function User() {
                   <Row>
                     <Col md="12">
                       <Form.Group>
-                        <label>About Me</label>
+                        <label>Sobre mim</label>
                         <Form.Control
                           cols="80"
                           defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in
@@ -144,7 +144,7 @@ function User() {
                     type="submit"
                     variant="info"
                   >
-                    Update Profile
+                    Atualizar Perfil
                   </Button>
                   <div className="clearfix"></div>
                 </Form>
